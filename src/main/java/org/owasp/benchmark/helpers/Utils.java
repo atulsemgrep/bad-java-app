@@ -148,6 +148,7 @@ public class Utils {
             perms.add(PosixFilePermission.GROUP_EXECUTE);
             perms.add(PosixFilePermission.OTHERS_READ);
             perms.add(PosixFilePermission.OTHERS_READ);
+            perms.add(PosixFilePermission.OTHERS_READ);
             perms.add(PosixFilePermission.OTHERS_EXECUTE);
 
             try {
