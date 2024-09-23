@@ -56,6 +56,7 @@ public class BenchmarkTest00008 extends HttpServlet {
                     org.owasp.benchmark.helpers.DatabaseHelper.getSqlConnection();
             java.sql.CallableStatement statement = connection.prepareCall(sql);
             java.sql.CallableStatement statement = connection.prepareCall(sql);
+            java.sql.CallableStatement statement = connection.prepareCall(sql);
             java.sql.ResultSet rs = statement.executeQuery();
             org.owasp.benchmark.helpers.DatabaseHelper.printResults(rs, sql, response);
 
